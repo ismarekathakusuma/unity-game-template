@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/mainmenu.uss?fileID=7433441132597879392&amp;guid=5638d17ad3967d449819a04d689d8bfc&amp;type=3#mainmenu" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; position: relative; flex-shrink: 1; align-items: center; justify-content: center; align-self: center; align-content: center;">
+        <ui:Label text="Main Menu" name="mainManuLbl" class="label TitleLabel" />
+        <ui:Button text="New Game" name="NewGameButton" class="button" />
+        <ui:Button text="Continue" name="ContinueButton" class="button" />
+        <ui:Button text="Sound" name="SoundButton" class="button" />
+        <ui:Button text="Options" name="OptionsButton" class="button" />
+        <ui:Button text="Credits" name="CreditsButton" class="button" />
+        <ui:Button text="Exit" name="ExitButton" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
